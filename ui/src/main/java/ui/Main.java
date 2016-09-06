@@ -9,6 +9,8 @@ public class Main {
     public void run() {
 
         Scanner sc = new Scanner(System.in);
+        int nombre1;
+        int nombre2;
 
         System.out.println("||-------------------------------------------||");
         System.out.println("||Bienvenue sur la calculatrice cooperative !||");
@@ -31,19 +33,40 @@ public class Main {
 
         switch (choix) {
         case 1:
+            System.out.print("Nombre 1 :");
+            nombre1 = sc.nextInt();
+            System.out.print("Nombre 2 :");
+            nombre2 = sc.nextInt();
             break;
         case 2:
+            System.out.print("Nombre 1 :");
+            nombre1 = sc.nextInt();
+            System.out.print("Nombre 2 :");
+            nombre2 = sc.nextInt();
             break;
         case 3:
+            System.out.print("Nombre 1 :");
+            nombre1 = sc.nextInt();
+            System.out.print("Nombre 2 :");
+            nombre2 = sc.nextInt();
             break;
         case 4:
+            System.out.print("Nombre 1 :");
+            nombre1 = sc.nextInt();
+            System.out.print("Nombre 2 :");
+            nombre2 = sc.nextInt();
             break;
         case 5:
+            System.out.print("Nombre 1 :");
+            nombre1 = sc.nextInt();
+            System.out.print("Nombre 2 :");
+            nombre2 = sc.nextInt();
             break;
         default:
 
         }
 
+        sc.close();
     }
     // toto
 }
